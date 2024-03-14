@@ -1,0 +1,9 @@
+import pyautogui
+import time
+
+# wait
+time.sleep(5)
+
+# passport
+pyautogui.write('passport')
+pyautogui.press('enter')
